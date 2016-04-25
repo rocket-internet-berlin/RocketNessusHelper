@@ -1,0 +1,11 @@
+*.pyc
+*.ini
+*.swp
+*~
+*.tmp
+*.vim.session
+.DS_Store
+tags
+__pycache__
+nessus-reports
+nessus-helper.ini

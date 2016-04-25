@@ -1,0 +1,48 @@
+[nessus]
+
+; Nessus host
+host=YOURNESSUSINSTANCE
+
+; Nessus port
+port=8834
+
+; User name for nessus to authenticate with
+user=YOURNESSUSUSER
+
+; Password for for nessus to authenticate with
+pass=YOURNESSUSPASSWORD
+
+; Nessus report chapters to generate (adjust it according to your needs)
+chapters=vuln_hosts_summary;vuln_by_host;vuln_by_plugin;remediations
+
+
+[mail]
+
+; SMTP server host
+host=smtp.gmail.com
+
+; SMTP server port
+port=587
+
+; Enable or disable ssl/tls - default: enabled (0 to disable)
+ssl=1
+
+; SMTP user to authenticate with
+user=YOUREMAILUSER
+
+; SMTP password to authenticate with
+pass=YOUREMAILPASSWORD
+
+; SMTP 'mail from', f.e.: Nessus <secops@company.com>
+from=YOURMAILFROM
+
+
+[addressbook]
+
+; define your targets here, f.e.: FooBar=someone@foobar.com
+TargetA=sysadmins@yourcompany.com,security@yourcompany.com
+TargetB=security@yourcompany.com
+TargetC=sysadmins@yourcompany.com
+
+; Do not remove the summary name. Change the value only
+Summary=sysadmins@yourcompany.com
