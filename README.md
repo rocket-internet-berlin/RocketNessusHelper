@@ -7,7 +7,7 @@ A Nessus helper. https://www.rocket-internet.com/
 Tenable Nessus offers an API to manage your scans. It allows you to export and
 download reports and more.
 
-This tool provides options to export and download nessus scans and
+This tool currently provides options to export and download nessus reports and
 optionally send them via email to mailing lists of your choice.
 
 More options will be defined in the near future

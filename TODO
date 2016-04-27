@@ -1,19 +1,22 @@
 ChangeLog and TODO list for nessus-helper
 =========================================
 
-[ ] planned to do
-[.] ongoing
-[x] done
+[ ] task to be performed
+[.] ongoing task
+[x] finished task
 
 
 ===> 0.X
+
     [ ] add more actions (add and delete scans)
     [ ] warn and error handling
     [ ] controller.py: more code refactoring
     [ ] nessus-helper-ini: add mail-template support
     [ ] verbose mode
 
+
 ===> 0.4
+
     [x] add nessus chapters to ini file
     [x] add nessus host and port (cmd line options: '-h' + '-p') to ini file
     [x] added comments to ini-config file
@@ -27,15 +30,23 @@ ChangeLog and TODO list for nessus-helper
     [x] get rid of unnecessary instance vars
     [x] add disableWarnings() for SSL/TLS related warnings
 
+
 ===> 0.3.1
+
     [x] use inline rather attachments for summary report
 
+
 ===> 0.3
+
     [x] new option: '-D': generate summary report (critical, high, medium)
 
+
 ===> 0.2
+
     [x] mail.py: add login support for Mail()
     [x] mail.py: add ssl/tls support for Mail()
 
+
 ===> 0.1
+
     [x] initial release
