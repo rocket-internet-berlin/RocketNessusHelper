@@ -4,7 +4,7 @@
 """
 A Nessus Helper
 :copyright: (c) 2016 Rocket Internet SE
-:license: GPLv3+, see LICENSE for more details.
+:license: MIT, see LICENSE for more details.
 """
 
 __author__ = "Levon Kayan"
